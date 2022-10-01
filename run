@@ -1,0 +1,7 @@
+#!/bin/sh
+redis-server &
+forever init.js --name="pool"
+echo Job exited.
+read -p "Press any key to resume ..."
+
+

@@ -1,4 +1,6 @@
-node_modules/
+#node_modules/
+*.rdb
+*.log
 .idea/
 config.json
 pool_configs/*.json
